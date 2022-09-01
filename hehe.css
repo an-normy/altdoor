@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+#welcome{
+    background: linear-gradient(lightgray,rgb(83, 83, 83));
+    padding-top: 50px;
+}
+.cont{
+    position: fixed;
+    z-index: 100px;
+    background-color: rgb(137, 139, 141);
+    width: 100%;
+    list-style: none;
+    top: -16px;
+    opacity: 80%;
+}
+.obj{
+    float: left;
+    padding: 15px;
+    font-family: fantasy;
+}
+p{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+a{
+    color: rgb(16, 16, 16);
+    text-decoration: none;
+}
+.obj:hover{
+    text-decoration: underline;
+}
